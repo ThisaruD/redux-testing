@@ -14,6 +14,7 @@ function App() {
       <h2>Counter: {counter}</h2>
 
       <button onClick={()=>dispatch(increment())}>+</button>
+      <button onClick={()=>dispatch(increment())}>+</button>
       <button onClick={()=>dispatch(decrement())}>-</button><br/>
 
       <button onClick={()=>dispatch(incrementByFive(5))}>+5</button><br/>
